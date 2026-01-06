@@ -65,7 +65,7 @@ const Login = () => {
 
                     <button
                         className="btn  w-100"
-                        style={{background:"red"}}
+                        style={{background:"red",color:"white"}}
                         disabled={loading}
                     >
                         {loading ? 'Logging in...' : 'Login'}

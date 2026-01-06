@@ -14,7 +14,12 @@ const Dashboard = () => {
   const fetchDashboardStats = async () => {
     try {
       const res = await axios.get(
-        `${import.meta.env.VITE_API_URL}/dashboard/stats`
+        `${import.meta.env.VITE_API_URL}/dashboard/stats`,
+        {
+          headers: {
+          Authorization: `Bearer ${token}`,
+        },
+        }
       );
 
       if (res.data.status === 200) {
