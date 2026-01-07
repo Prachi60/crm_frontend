@@ -47,7 +47,7 @@ const Dashboard = () => {
       </div>
 
       <div className="row g-4 align-items-stretch">
-        {/* Leads Card */}
+       
         <div className="col-md-3 col-sm-6">
           <div className="border border-2 bg-white rounded-4 h-100">
             <div className="px-3 py-4 d-flex flex-column">
@@ -62,7 +62,7 @@ const Dashboard = () => {
           </div>
         </div>
 
-        {/* Employees Card */}
+      
         <div className="col-md-3 col-sm-6">
           <div className="border border-2 bg-white rounded-4 h-100">
             <div className="px-3 py-4 d-flex flex-column">
