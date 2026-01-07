@@ -20,21 +20,21 @@ const Sidebar = () => {
     },
     {
       id: "Leads",
-      icon: <ImPhoneHangUp className="me-2" />,
+      icon: <ImPhoneHangUp size={25}  className="me-2" />,
       label: "Leads",
       path:"/lead"
      
     },
     {
       id: "Employee",
-      icon: <FaWpforms className="me-2" />,
+      icon: <FaWpforms size={25}  className="me-2" />,
       label: "Employee",
       path:"/employee"
       
     },
     {
       id: "Logout",
-      icon: <FaGears className="me-2" />,
+      icon: <FaGears size={25}  className="me-2" />,
       label: "Logout",
       path:"/logout"
     },
@@ -127,15 +127,7 @@ const Sidebar = () => {
   </div>
         </div>
         <div className="offcanvas-body p-0 sidebar_section">
-          {/* <div className="accordion" id="mobileAccordion">
-            {menuItems.map((item) => (
-              <AccordionItem
-                key={item.id}
-                item={item}
-                parentId="mobileAccordion"
-              />
-            ))}
-          </div> */}
+        
           <div>
   {menuItems.map((item) => (
     <ButtonMenu key={item.id} item={item} />
